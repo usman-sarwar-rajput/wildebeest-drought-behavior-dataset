@@ -1,0 +1,41 @@
+[
+  {
+    "model": "primary",
+    "formula": "log(outcome) ~ C(unit)+C(phase)",
+    "coefficients": {
+      "Intercept": 1.386900568527123,
+      "C(unit)[T.3314CT26]": 0.20555565735062165,
+      "C(unit)[T.3315CT24]": 0.058953691797206054,
+      "C(unit)[T.3317CT33]": -1.4196302577796611,
+      "C(unit)[T.3318CT23]": 0.1428726510730724,
+      "C(unit)[T.3319CT31]": -0.5142796289022821,
+      "C(unit)[T.3320CT34]": -0.46417090995835186,
+      "C(unit)[T.3322CT25]": 0.23665654548416948,
+      "C(unit)[T.3323CT32]": -0.37960288044031276,
+      "C(phase)[T.HD]": 1.1621407508154906,
+      "C(phase)[T.HW]": 1.1110710314509529
+    },
+    "n_rows": 348,
+    "rank": 11,
+    "warning": "Exploratory fit; use uncertainty and limitations in manuscript."
+  },
+  {
+    "model": "omit_low_movement_individual",
+    "formula": "log(outcome) ~ C(unit)+C(phase)",
+    "coefficients": {
+      "Intercept": 2.045794713318066,
+      "C(unit)[T.3314CT26]": 0.20555565735062248,
+      "C(unit)[T.3315CT24]": 0.05895369179720593,
+      "C(unit)[T.3318CT23]": 0.1428726510730724,
+      "C(unit)[T.3319CT31]": -0.22875883282620768,
+      "C(unit)[T.3320CT34]": -0.17865011388227797,
+      "C(unit)[T.3322CT25]": 0.2366565454841703,
+      "C(unit)[T.3323CT32]": -0.09408208436423565,
+      "C(phase)[T.HD]": 0.2080155701176492,
+      "C(phase)[T.HW]": 0.17636633041476507
+    },
+    "n_rows": 305,
+    "rank": 10,
+    "warning": "Exploratory fit; use uncertainty and limitations in manuscript."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "original_creators": "Vera and colleagues",
+  "original_dataset_doi": "10.5061/dryad.9cnp5hr2g",
+  "related_paper_doi": "10.1111/1365-2656.70387",
+  "source_url": "https://doi.org/10.5061/dryad.9cnp5hr2g",
+  "source_commit": null,
+  "original_input_sha256": "7684d5c06aa6d5d69a124ded3d892cf91586eec302133ae6656b81b57f5b26af",
+  "included_input_sha256": "e2bdc9e7e3266ac29b9a2a7523442a5a51096c96311fea3f42e7ef368e298bba",
+  "transformation": "Species-only subset of daily-distance table.",
+  "license": "CC0-1.0",
+  "prepared_date": "2026-11-22"
+}
